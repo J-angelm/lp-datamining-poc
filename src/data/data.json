@@ -1,21 +1,21 @@
 {
   "Header": {
-    "title": "We are a Landing Page",
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis sed dapibus leo nec ornare diam sed commodo nibh ante facilisis bibendum."
+    "title": "GAS DATA MINING",
+    "paragraph": "Servicios de análisis predictivos del consumo de Gas LP"
   },
   "About": {
-    "paragraph": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    "paragraph": "Somos una empresa dedicada al análisis del consumo de Gas LP con el objetivo de producir modelos estadísticos predictivos del consumo esperado en una región.",
     "Why": [
-      "Lorem ipsum dolor",
-      "Tempor incididunt",
-      "Lorem ipsum dolor",
-      "Incididunt ut labore"
+      "Ofrecemos análisis de datos en tiempo real",
+      "Utilizamos dispositivos de alta gama con comunicación 3G",
+      "Proporcionamos planeador de rutas y volumenes esperados",
+      "Mapas de monitoreo en tiempo real"
     ],
     "Why2": [
-      "Aliquip ex ea commodo",
-      "Lorem ipsum dolor",
-      "Exercitation ullamco",
-      "Lorem ipsum dolor"
+      "Tablas de datos de consumo",
+      "Tendencias de consumo por región",
+      "Tendencias de consumo individual",
+      "Volumenes disponibles"
     ]
   },
   "Gallery": [
@@ -162,23 +162,23 @@
   "Features": [
     {
       "icon": "fa fa-comments-o",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Mapas de monitoreo en tiempo Real",
+      "text": "Selecciona entre los filtros: Volumen Consumo Esperado, Probabilidad de Consumo, Volumen de Consumo Disponible, entre otros."
     },
     {
       "icon": "fa fa-bullhorn",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Planeador de rutas y volumen de consumo esperado",
+      "text": "Planea rutas de reparto conociendo el Volumen de Consumo Esperado por región."
     },
     {
       "icon": "fa fa-group",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Tablas de datos de consumo",
+      "text": "Utiliza los datos de consumo directamente para hacer análisis, predicciones, estimaciones."
     },
     {
       "icon": "fa fa-magic",
-      "title": "Lorem ipsum",
-      "text": "Lorem ipsum dolor sit amet placerat facilisis felis mi in tempus eleifend pellentesque natoque etiam."
+      "title": "Tendencias de consumo por región",
+      "text": "Visualiza las tendencias de Consumo, Volumen de Consumo, Comportamientos de consumo."
     }
   ]
 }

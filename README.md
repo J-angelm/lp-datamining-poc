@@ -1,34 +1,16 @@
-# React JS Landing Page Template
+# Gas Consumption Data Mining POC
 
-**
+## Planteamiento del problema
 
-# 🛎️🛎️ Good news! New & improved [V2](https://github.com/issaafalkattan/react-landing-page-template-2021) is out  
+Se tienen instalados n sensores del flujo de gas LP en m locaciones. Cada sensor tiene la capacidad de informar en tiempo real los siguientes datos:
 
-**
+a) Volumen actual en el tanque
+b) Velocidad del consumo de gas
 
+Se desea obtener un modelo estadístico del consumo de gas, basado en datos obtenidos en tiempo real y datos del consumo histórico, que pueda predecir el Consumo Esperado por Región, con un nivel de confianza del 95%.
 
-### <a href="https://react-landing-page-template-93ne.vercel.app/">LIVE DEMO</a> 
-
-## Description
-This is a ReactJS based landing page template, fit for a startup company/service with a one page view. The design is inspired by a template from <a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-All 'visual' data can be easily modified by changing the data.json file.
-
-## Make it Yours!
-### 1. Preps
-You will need to have <a href="https://nodejs.org/">Node JS</a> installed on your pc. 
-
-### 2. Clone Files
-After cloning the files, you will have to run ```yarn``` followed by ```yarn start``` in the CLI
-### 3. Add your own data 
-Change the data in the ```data.json``` file as well as add any images to ```public/img/```
-You can also change styles by modifying the ```public/css``` files.
-
-
-## Like this project?
-<a href="https://www.buymeacoffee.com/issaaf">Buy my a coffee ☕️</a>
-
-## Credits
-##### Free CSS 
-<a href="https://www.free-css.com/assets/files/free-css-templates/preview/page234/interact/">Free-CSS.com </a>
-
-##### Issaaf kattan
+Variables Criticas:
+  i) Volumen de Consumo Esperado = Promedio del Volumen del Consumo Historico
+ ii) Probabilidad de Consumo = P_C(x) = f(x;ms) Distribución normal
+iii) Volumen Consumo Disponible = (Volumen Total - Volumen Actual) 
+ iv) Tiempo restante para vaciado = Volumen Actual / Velocidad de consumo

@@ -6,10 +6,10 @@ export const Gallery = (props) => {
     <div id="portfolio" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Gallery</h2>
+          <h2>Ganador</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            El postor más alto sera nombrado ganador y será acreedor de las herramientas de análisis, predicción y planificación de 
+            datos.
           </p>
         </div>
         <div className="row">

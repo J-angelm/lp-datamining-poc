@@ -5,13 +5,12 @@ export const Services = (props) => {
     <div id="services" className="text-center">
       <div className="container">
         <div className="section-title">
-          <h2>Our Services</h2>
+          <h2>Subasta de Datos</h2>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit duis sed
-            dapibus leonec.
+            Cada día se realiza una subasta de los datos minados y predictivos del día siguiente.
           </p>
         </div>
-        <div className="row">
+        {/* <div className="row">
           {props.data
             ? props.data.map((d, i) => (
                 <div key={`${d.name}-${i}`} className="col-md-4">
@@ -24,6 +23,35 @@ export const Services = (props) => {
                 </div>
               ))
             : "loading"}
+        </div> */}
+      </div>
+      <div className="container-fluid">
+        <div class="row">
+          <div class="col-6 col-md-4">
+          {" "}
+            <img src="img/graph_1.png" alt="Tendencia Historica Vol Ventas" className="img-responsive"/>
+            <br />
+            <img src="img/graph_2.png" alt="Tendencia Historica Ofertas Ganadoras" className="img-responsive"/>
+            <br />
+            <img src="img/graph_3.png" alt="Tendencia de Consumo" className="img-responsive"/>
+          {" "}
+          </div>
+          <div class="col-12 col-md-8">
+            <div class="row">
+              <div class="col-md-2">
+              </div>
+              <div class="col-md-8">
+                <div class="col-md-1">
+                  <p>MXN</p>
+                </div>
+                <div class="col-md-4">
+                  <h2> 12,300</h2>
+                </div>
+              </div>
+              <div class="col-md-2">
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
