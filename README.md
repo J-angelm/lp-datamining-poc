@@ -14,3 +14,5 @@ Variables Criticas:
 - Probabilidad de Consumo = P_C(x) = f(x;ms) Distribución normal
 - Volumen Consumo Disponible = (Volumen Total - Volumen Actual) 
 - Tiempo restante para vaciado = Volumen Actual / Velocidad de consumo
+
+
