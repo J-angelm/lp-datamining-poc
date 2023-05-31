@@ -1,7 +1,7 @@
 {
   "name": "landingpage-react-template",
   "private": true,
-  "homepage": "https://j-angelm.github.io/",
+  "homepage": "https://j-angelm.github.io/lp-datamining-poc/",
   "dependencies": {
     "-": "^0.0.1",
     "@testing-library/jest-dom": "^4.2.4",
