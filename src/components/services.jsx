@@ -1,5 +1,8 @@
 import React from "react";
 
+import CountdownTimer from "./functional/CountdownTimer";
+import MapaChihuahua from "./functional/MapaChihuahua";
+
 export const Services = (props) => {
   return (
     <div class="container-fluid" id="services">
@@ -57,7 +60,7 @@ export const Services = (props) => {
                 </div>
               </div>
               <div className="panel panel-margin">
-                <p style={{ fontSize: '22px' }}>
+                <p style={{ fontSize: '22px', color: '#fff', marginLeft: '25px', marginTop: '10px' }}>
                   OFERTA <br />
                   ACTUAL
                 </p>
@@ -80,8 +83,19 @@ export const Services = (props) => {
                       Añadir Oferta
                     </button>
                   </form>
+                  <div className="panel nested-horizontal">
+                    <p style={{ marginLeft:'30px'}}>
+                      tiempo <br /> restante
+                    </p>
+                    <CountdownTimer/>
+                  </div>
                 </div>
               </div>
+            </div>
+            <br />
+            <br />
+            <div className="row">
+              <MapaChihuahua />
             </div>
           </div>
         </div>
