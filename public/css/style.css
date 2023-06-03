@@ -194,6 +194,30 @@ hr {
   background-image: none;
   background-color: #6372ff;
 }
+.btn-custom-two {
+  font-family: "Raleway", sans-serif;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #4cc44a;
+  /* background-image: linear-gradient(to right, #dbf054 0%, #e4b702 100%); */
+  padding: 10px 20px;
+  letter-spacing: 1px;
+  margin: 0;
+  font-size: 14px;
+  font-weight: 500;
+  border-radius: 10px;
+  transition: all 0.5s linear;
+  border: 0;
+}
+.btn-custom-two:hover,
+.btn-custom-two:focus,
+.btn-custom-two.focus,
+.btn-custom-two:active,
+.btn-custom-two.active {
+  color: #fff;
+  background-image: none;
+  background-color: #0def20;
+}
 .btn:active,
 .btn.active {
   background-image: none;
