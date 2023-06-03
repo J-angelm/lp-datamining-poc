@@ -70,6 +70,14 @@ hr {
   margin-bottom: 20px;
   border: 0;
 }
+.nested-horizontal {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.nested-horizontal p {
+  margin-bottom: 0;
+}
 /* Navigation */
 #menu {
   padding: 15px;

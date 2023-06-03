@@ -34,37 +34,33 @@ export const Services = (props) => {
             <br />
             <img src="img/graph_3.png" alt="Tendencia de Consumo" className="img-responsive"/>
           </div>
-          <div className="col-12 col-md-7">
-            <div className="row">
-              <div className="col-md-1 col-md-offset-6">
+          <div className="col-12 col-md-6">
+            <div className="row nested-horizontal">
+              <div className="panel col-md-offset-6">
                 <p style={{ color: 'yellow', fontSize: '11px' }}>
                   oferta <br />
                   inicial
                 </p>
               </div>
-              <div className="col-md-2">
-                <div className="col-md-2">
+              <div className="panel panel-margin">
+                <div className="nested-horizontal">
                   <p style={{ color: 'yellow', fontSize: '10px' }}>MXN</p>
-                </div>
-                <div className="col-md-3">
                   <h2 style={{ color: 'yellow', fontSize: '20px' }}> 5,940.00</h2>
                   <br />
                 </div>
               </div>
             </div>
-            <div className="row">
-              <div className="panel panel-default col-md-5 col-md-offset-4">
-                <div className="col-md-2">
+            <div className="row nested-horizontal">
+              <div className="panel panel-border col-md-offset-4">
+                <div className="nested-horizontal">
                   <p>MXN</p>
-                </div>
-                <div className="col-md-4">
                   <h2 style={{ fontSize: '50px' }}> 12,300.00</h2>
                 </div>
               </div>
-              <div className="col-md-2 col-md-offset-1">
-                <p style={{ fontSize: '18px' }}>
-                  oferta <br />
-                  actual
+              <div className="panel panel-margin">
+                <p style={{ fontSize: '22px' }}>
+                  OFERTA <br />
+                  ACTUAL
                 </p>
               </div>
             </div>
