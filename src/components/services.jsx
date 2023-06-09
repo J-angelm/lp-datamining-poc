@@ -95,7 +95,7 @@ export const Services = (props) => {
             <br />
             <br />
             <div className="row">
-              <MapaChihuahua />
+              <MapaChihuahua width="50%"/>
             </div>
           </div>
         </div>
