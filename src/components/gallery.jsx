@@ -1,4 +1,3 @@
-import { Image } from "./image";
 import React from "react";
 import MapaChihuahua from "./functional/MapaChihuahua";
 
@@ -24,18 +23,18 @@ export const Gallery = (props) => {
             <br />
             <br />
             <li role="presentation" className="active"><a href="#">Volumen de Consumo Esperado</a></li>
-            <li role="presentation"><a href="">Probabilidad de Consumo</a></li>
-            <li role="presentation"><a href="">Volumen de Consumo Disponible</a></li>
-            <li role="presentation"><a href="">Tiempo Restante para Vaciado</a></li>
-            <li role="presentation"><a href="">Capacidad Total</a></li>
+            <li role="presentation"><a href="#">Probabilidad de Consumo</a></li>
+            <li role="presentation"><a href="#">Volumen de Consumo Disponible</a></li>
+            <li role="presentation"><a href="#">Tiempo Restante para Vaciado</a></li>
+            <li role="presentation"><a href="#">Capacidad Total</a></li>
           </ul>
         </div>
         <div className="col-md-8" >
           <ul className="nav nav-tabs">
             <li role="presentation" className="active"><a href="">Mapas</a></li>
-            <li role="presentation"><a href="">Planeador de Rutas</a></li>
-            <li role="presentation"><a href="">Tablas</a></li>
-            <li role="presentation"><a href="">Tendencias</a></li>
+            <li role="presentation"><a href="#">Planeador de Rutas</a></li>
+            <li role="presentation"><a href="#">Tablas</a></li>
+            <li role="presentation"><a href="#">Tendencias</a></li>
           </ul>
           <div className="row">
             <MapaChihuahua width="100%"/>
