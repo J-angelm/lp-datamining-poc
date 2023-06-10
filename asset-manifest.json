@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/lp-datamining-poc/static/css/main.022f0cc7.css",
+    "main.js": "/lp-datamining-poc/static/js/main.9183c2f9.js",
+    "index.html": "/lp-datamining-poc/index.html",
+    "main.022f0cc7.css.map": "/lp-datamining-poc/static/css/main.022f0cc7.css.map",
+    "main.9183c2f9.js.map": "/lp-datamining-poc/static/js/main.9183c2f9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.022f0cc7.css",
+    "static/js/main.9183c2f9.js"
+  ]
+}
