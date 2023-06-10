@@ -6,7 +6,7 @@ export const Gallery = (props) => {
     <div id="portfolio">
       <div className="container">
         <div className="section-title text-center">
-          <h2>Alkene</h2>
+          <h2 style={{ textTransform:'lowercase' }}>alkene</h2>
           <p>
           Sistema de Análisis Predictivo del Consumo de Gas Estacionario
           </p>

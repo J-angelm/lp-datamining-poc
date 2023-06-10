@@ -32,10 +32,13 @@ export const Services = (props) => {
         <div className="row">
           <div className="col-6 col-md-4 col-md-offset-1">
             <img src="img/graph_1.png" alt="Tendencia Historica Vol Ventas" className="img-responsive"/>
+            <p style={{ textAlign:'center' }}>Tendencia Volúmen Total de Ventas</p>
             <br />
             <img src="img/graph_2.png" alt="Tendencia Historica Ofertas Ganadoras" className="img-responsive"/>
+            <p style={{ textAlign:'center' }}>Tendencia Precio del Gas</p>
             <br />
             <img src="img/graph_3.png" alt="Tendencia de Consumo" className="img-responsive"/>
+            <p style={{ textAlign:'center' }}>Tendencia Precio final de subasta</p>
           </div>
           <div className="col-12">
             <div className="row nested-horizontal">
@@ -96,6 +99,7 @@ export const Services = (props) => {
             <br />
             <div className="row">
               <MapaChihuahua width="50%"/>
+              <p style={{ textAlign:'center', fontSize: '18px', color: '#fff', marginLeft: '25px', marginTop: '10px' }}>Actividad de Dispositivos</p>
             </div>
           </div>
         </div>
